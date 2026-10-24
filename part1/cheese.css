@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #052b72;
+    line-height: 1.6;
+    
+    max-width: 60rem;
+    margin: 0 auto;
+
+    padding: 1.5rem;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.latin {
+    font-style: italic;
+}
+
+#warning {
+    background-color: rgb(244, 145, 53);
+}
+
+blockquote {
+    border-left: 4px solid #052b72;
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+a:hover {
+    background-color: rgb(141, 252, 174);
+}
+
+a:focus,
+button:focus,
+fieldset input:focus {
+    background-color: rgb(141, 241, 252);
+    color: #052b72;
+}
+
+section {
+    color:blueviolet
+}
+
+section {
+    color: #052b72 
+}
+
+/*
+    The second rule wins because the rule selectors are the same, 
+    the specificty is the same, and the second rule is placed later.
+*/
